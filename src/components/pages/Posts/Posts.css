@@ -1,0 +1,33 @@
+.posts__container {
+  display: flex;
+  flex-flow: column;
+  max-width: 630px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.posts__item {
+  display: flex;
+  flex-flow: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.date {
+  font-family: "Roboto";
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.content {
+  font-family: "Roboto";
+  text-align: justify;
+}
