@@ -27,13 +27,28 @@ src
             ├── Posts.css
             └── PostItem.js
 ```
-## **Classes**
 
-### **Main**
+## **Overview**
 
-This is the entry point to the program. It takes in arguments from the command line and based on the command (the first element of the `args` array) calls the corresponding method in `Repository`. It also validates the arguments based on the command to ensure that enough arguments are passed in.
+The objective of this project was to create a personal website from scratch using React.js. Due to lack of knowledge on backend synchronization, this project does not include any interactive utilities that include other users (e.g comments, authentifcation, and etc) but rather focuses on utilizing React.js to design a fully functioning website. The Website is divided into four pages, About, Mile_Stones, Readings, and Ttca.
 
-### **Repository**
+### **NavBar.js & Footer.js**
+
+NavBar.js and Footer.js is the default header and footer, respectively. Regardless of the page being visited, the header and footer is always maintained the same. The implementation was done by placing them in App.js. On the other hand, other components that require visit (in pages directory) through interaction (clicking desiring page on NavBar) were implemented by importing BrowserRouter and sandwiching them between the NavBar and Footer in App.js. The menu function of NavBar was created using Link import.
+
+#### **About.js**
+
+About.js contains the defauly webpage
+
+#### **Mile_Stones.js**
+
+Repository is the router that contains all the methods respective to the input commands from the main class. Its instance variables are the physical directories, which are created only the first time the initialization method is called. Other methods manipulate the files within the directory (e.g `add`, `remove`, `commit`, and `checkout`).
+
+#### **Readings.js**
+
+Repository is the router that contains all the methods respective to the input commands from the main class. Its instance variables are the physical directories, which are created only the first time the initialization method is called. Other methods manipulate the files within the directory (e.g `add`, `remove`, `commit`, and `checkout`).
+
+#### **Ttca.js**
 
 Repository is the router that contains all the methods respective to the input commands from the main class. Its instance variables are the physical directories, which are created only the first time the initialization method is called. Other methods manipulate the files within the directory (e.g `add`, `remove`, `commit`, and `checkout`).
 
