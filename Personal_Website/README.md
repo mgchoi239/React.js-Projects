@@ -30,11 +30,11 @@ src
 
 ## **Overview**
 
-The objective of this project was to create a personal website from scratch using React.js. Due to lack of knowledge on backend synchronization, this project does not include any interactive utilities that include other users (e.g comments, authentifcation, and etc) but rather focuses on utilizing React.js to design a fully functioning website. The Website is divided into four pages, About, Mile_Stones, Readings, and Ttca.
+The objective of this project was to create a personal website from scratch using React.js. Due to lack of backend knowledge, this project does not include any syncing features (e.g comments, authentifcation and etc) but rather focuses on utilizing React.js to design a fully functioning website. The Website is divided into four pages, About, Mile Stones, Readings, and Ttca.
 
 ### **NavBar.js & Footer.js**
 
-NavBar.js and Footer.js is the default header and footer, respectively. Regardless of the page being visited, the header and footer is always maintained the same. The implementation was done by placing them in App.js. On the other hand, other components that require visit (in pages directory) through interaction (clicking desiring page on NavBar) were implemented by importing BrowserRouter and sandwiching them between the NavBar and Footer in App.js. The menu function of NavBar was created using Link import.
+NavBar.js and Footer.js is the default header and footer, respectively. Regardless of the page being visited, the header and footer is the same which was implemented by directly placing them onto App.js. On the other hand, other components that require visit (located in pages directory) through interaction (clicking desiring page on NavBar) were implemented by importing BrowserRouter and sandwiching them between the NavBar and Footer in App.js as a switch. The menu function of NavBar was created using Link import.
 
 #### **About.js**
 
